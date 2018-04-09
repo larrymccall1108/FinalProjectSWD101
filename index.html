@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final Project SWD101</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    
+
+
+   </head>
+<body>
+    
+    
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#fff"
+                    stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="#fff"
+                    stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="#fff"
+                    stroke-width="5"/>
+                </svg>    
+                                        
+
+            </a>
+
+        </span>
+
+        <ul class="navbar-nav">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="services.html">Skills</a></li>
+  
+
+        </ul>
+        
+    </nav>
+    <div id="side-menu" class="side-nav" class="sidenav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="services.html">Skills</a>
+
+
+    </div>
+
+    <div id="main">
+        <h1 id="titleA">Larry McCall, Website Developer</h1>
+        <div class="ajaxHeading">
+                <div>
+                    </div>
+
+
+                    <h1>Ajax Retrival Specialist</h1>
+                    <button class="mybutton" type="button" onclick="loadGetHub()">Get My Current Repos</button>
+                    <h3 id="gitBio"></h3>
+                    
+                
+                   </div>
+
+
+
+        <div class="container">
+           
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="dropdown">
+                        <button class="hvr-grow" class="dropbtn">See The Super Coder</button>
+                        <div class="dropdown-content">
+                            <img src = "images/NerdShot.jpg" width="250px" height="250px">
+                          
+                        
+                        </div>
+                    </div>
+                      
+                </div>
+                <div class="col-sm-6">
+                    <div class="dropdown">
+                        <button class="hvr-grow" class="dropbtn">See Our Skill Set</button>
+                        <div class="dropdown-content">
+                          <a href="#">Website Developer</a>
+                          <a href="#">HTML, CSS, jQuery, JavaScript</a>
+                          <a href="#">Bootstrap, Json, Ajax</a>
+                          <a href="#">Wordpress</a>
+                        </div>
+                      </div>                      
+                </div>
+            </div>
+        </div>
+        
+            </div>
+
+    </div>
+ 
+    <footer>
+    <div class="footer">
+        <div class="container">          
+            <div class="row"></div>     
+              <div class="col-sm-3">                                             
+                  <p>
+                      <a class="hvr-grow" href="https://www.github.com/larrymccall1108"  title="LinkedIn" class="btn btn-linkedin btn-lg" target="_blank">
+                        <i class="fa fa-linkedin fa-fw"></i> GitHub</a></p>                   
+                </div> 
+                 <div class="col-sm-3">                                              
+                      <p>
+                          <a class="hvr-grow" href="https://www.linkedin.com/in/larry-mccall-developer/" title="LinkedIn" class="btn btn-linkedin btn-lg" target="_blank">
+                            <i class="fa fa-linkedin fa-fw"></i> Linkedin</a></p>                     
+                      </div> 
+                <div class="col-sm-3">
+                    <p>
+                        <a class="hvr-grow" href="#" class="btn btn-info btn-lg">
+                          <span class="glyphicon glyphicon-phone-alt"> 800.888.9999</span>
+                        </a>
+                      </p>
+                </div>              
+                <div class="col-sm-3">
+                    <p>
+                        <a class="hvr-grow" href="mailto:larry@GeekTechCenter.com" class="btn btn-info btn-lg">
+                          <span class="glyphicon glyphicon-envelope"></span> Email                                   
+                </div>
+        </div>
+    </div>
+    </footer>
+
+  
+    
+
+
+</div>
+<script src="main.js" type="text/javascript"></script>
+</body>
+</html>
